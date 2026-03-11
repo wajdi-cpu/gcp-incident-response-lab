@@ -28,13 +28,19 @@ data via a public storage bucket, open SSH/RDP ports, no logging.
 Full incident response report included in this repo.
 
 # Repo contents:
-gcp-incident-response-lab/
-├── README.md
-├── Cymbal_Retail_Incident_Response_Report.pdf
-└── screenshots/
-    ├── scc-findings-firewall.png
-    ├── scc-findings-bucket.png
-    ├── vm-snapshot-recovery.png
-    ├── bucket-access-hardened.png
-    ├── firewall-rules-updated.png
-    └── pci-dss-compliance-report.png
+
+```js
+gcp-incident-response-lab/           
+├── README.md                                            
+├── Cymbal_Retail_Incident_Response_Report.pdf                                 
+└── screenshots/                                                    
+    ├── attacks.png                                   
+    ├── deleting_default_firewall_rules.png                               
+    ├── PCI_DSS.png                                      
+    ├── permisson_mangement.png                                         
+    ├── vm_config.png
+    ├── vm_restoration.png
+    ├── vuln2.png               
+    ├── vulns1.png                                                     
+    └── vm_redeployement.png                                                                 
+```
